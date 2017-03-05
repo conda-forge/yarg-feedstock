@@ -11,6 +11,18 @@ Summary: A semi hard Cornish cheese, also queries PyPI (PyPI client)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/yarg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/yarg-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/yarg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/yarg-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/yarg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/yarg-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yarg/badges/version.svg)](https://anaconda.org/conda-forge/yarg)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yarg/badges/downloads.svg)](https://anaconda.org/conda-forge/yarg)
+
 Installing yarg
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `yarg` available on your platform 
 ```
 conda search yarg --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/yarg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/yarg-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/yarg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/yarg-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/yarg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/yarg-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yarg/badges/version.svg)](https://anaconda.org/conda-forge/yarg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/yarg/badges/downloads.svg)](https://anaconda.org/conda-forge/yarg)
 
 
 Updating yarg-feedstock
