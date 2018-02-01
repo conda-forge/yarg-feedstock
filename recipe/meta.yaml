@@ -1,6 +1,6 @@
 {% set name = "yarg" %}
 {% set version = "0.1.9" %}
-{% set md5 = "a17cb3e82fcd86e4184ec0f8c2e013c7" %}
+{% set sha256 = "55695bf4d1e3e7f756496c36a69ba32c40d18f821e38f61d028f6049e5e15911" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -36,6 +37,7 @@ about:
   license_file: LICENSE
   summary: 'A semi hard Cornish cheese, also queries PyPI (PyPI client)'
   dev_url: https://github.com/kura/yarg
+  doc_url: https://yarg.readthedocs.io/
 
 extra:
   recipe-maintainers:
