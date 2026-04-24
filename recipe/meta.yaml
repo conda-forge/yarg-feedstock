@@ -1,6 +1,6 @@
 {% set name = "yarg" %}
-{% set version = "0.1.9" %}
-{% set sha256 = "55695bf4d1e3e7f756496c36a69ba32c40d18f821e38f61d028f6049e5e15911" %}
+{% set version = "0.1.10" %}
+{% set sha256 = "1fbc94af89d5ebc2d2dfe46a5006a570de549c43e78f0913ce8390a1c5848b7e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,11 +13,11 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
